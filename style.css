@@ -1,0 +1,152 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    padding: 1rem;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+#b:hover{
+    text-decoration:underline;
+    font-size:20px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 80%;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    position:absolute;
+}
+
+.cta-button:hover{
+    font-size:18px;
+}
+
+.hero-video video {
+    max-width: 45%;
+    height: auto;
+}
+
+#services, #portfolio, #about, #contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.service-item {
+    width: 30%;
+    padding: 10px;
+    border-radius:5px;
+    border-color:gray;
+    border-width:5px;
+    border-style:dotted;
+}
+
+.portfolio-gallery {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.portfolio-item {
+    width: 90%;
+    margin: 20px 0;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    background-color: #484848;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#submit:hover{
+    background-color:black;
+
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+a.link{
+    padding:50px;
+}
